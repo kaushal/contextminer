@@ -5,9 +5,10 @@ Compatibility: Mac OS X, Linux
 
 Installing ContextMiner
 -----------------------
-1. Make sure you're connected to the Internet.
+1. Unzip the downloaded file.
+2. Make sure you're connected to the Internet.
 2. Open a terminal (on a Mac, it's Applications->Utilities->Terminal).
-3. Type the following command and hit enter.  
+3. Go to the location where you unzipped ContextMiner. Type the following command and hit enter.  
 sudo bash install_cm
 
 It will ask for your administrative/root password.  
@@ -33,6 +34,16 @@ Using ContextMiner
 3. Now you can create a new campiagn/project. Within each campaign, you can enter queries to run automatically on YouTube or Facebook. You will also find options to monitor the data being collected and export it in CSV format.
 
 
+Updating ContextMiner
+---------------------
+1. Open a terminal (on a Mac, it's Applications->Utilities->Terminal).
+2. Make sure you stop ContextMiner if it is running by issuing 'sudo cmstop' on the command-line/terminal.
+3. Type the following command and hit enter.  
+sudo bash update_cm  
+
+If there are any updates, they will be downloaded automatically and installed at appropriate locations.
+
+
 Uninstalling ContextMiner
 -------------------------
 1. Open a terminal (on a Mac, it's Applications->Utilities->Terminal).  
@@ -41,5 +52,5 @@ sudo bash uninstall_cm
 
 
 ContextMiner Team  
-March 14, 2013  
+March 20, 2013  
 http://www.contextminer.org/
